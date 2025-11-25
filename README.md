@@ -1,7 +1,7 @@
 # 🏦 Bank Customer Retention & Churn Analysis
 
-![Dashboard Screenshot]([link-to-your-dashboard-screenshot.png])
-*A snapshot of the Power BI dashboard highlighting the "Toxic Product Bundle" and High-Net-Worth churn in Germany.*
+https://app.powerbi.com/view?r=eyJrIjoiNjlkMjQ1N2ItMWUwNy00ZWQyLWI4ZTctZDRkNmI5NTk4NDQxIiwidCI6IjM5ZTBjZjljLTBiZTktNGFkNS1hOWIwLTEwZGE2Y2QzYzlkMiJ9
+*Interact with the power bi dashboard here.*
 
 ## 📄 Executive Summary
 
@@ -46,18 +46,10 @@ Instead of loading raw data into Power BI, I used SQL to create a clean analytic
 ## 📊 Key Insights
 
 ### 1. The "Toxic Bundle" (Product Strategy Failure)
-
-
-[Image of line chart showing trend]
-
 * **The Finding:** Customers with 1 or 2 products have a healthy churn rate (~10%). However, churn spikes to **83% for 3 products** and **100% for 4 products**.
 * **The Implication:** The bank's cross-selling strategy is failing. The 3rd and 4th products (likely investments or secondary accounts) create friction or offer poor value, driving customers away immediately.
 
 ### 2. The "German Wealth Bleed"
-
-
-[Image of scatter plot quadrant analysis]
-
 * **The Finding:** While Germany accounts for 25% of customers, it represents a disproportionate share of **Capital at Risk** due to high average balances.
 * **The Implication:** German customers are 2x more likely to churn (32%) than French or Spanish customers (16%). The bank is losing its "Whale" clients.
 
